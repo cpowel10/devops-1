@@ -3417,5 +3417,5 @@ No binary protocol is used for communication.	Binary protocol is used for commun
 
 
 
-
+Week2 completed
 
