@@ -3419,3 +3419,143 @@ No binary protocol is used for communication.	Binary protocol is used for commun
 
 Week2 completed
 
+
+Week3 - 
+** Project1
+Design Patterns
+DAO
+Singleton Design Pattern
+factory DP
+Dependency Injection
+
+Collections
+HTML5
+CSS3
+Spring Core
+Spring Boot
+Spring MVC
+Spring Data
+
+AWS
+	- S3
+ 	- RDS
+REST
+Agile
+Scrum
+SonarLint
+
+
+Tomo QC - 11:00 AM -1
+
+
+Day 11
+-----------
+
+Design Pattern
+---------------------
+solution to a probem in a given context
+In software engineering, a design pattern is a general repeatable solution to a commonly occurring problem in software design.
+
+
+Creational
+	Singleton
+	Factory Design Pattern
+Structural 
+Behavioural 
+
+DAO
+Singleton Design Pattern
+factory DP
+
+
+Authenticate a user
+
+
+Problem : We want a single object to be serving to all the customers.
+Solution : Singleton Design Pattern
+
+The singleton pattern is one of the simplest design patterns. Sometimes we need to have only one instance of our class for example a single DB connection shared by multiple objects as creating a separate DB connection for every object may be costly. Similarly, there can be a single configuration manager or error manager in an application that handles all problems instead of creating multiple managers.
+Definition: 
+The singleton pattern is a design pattern that restricts the instantiation of a class to one object. 
+Let’s see various design options for implementing such a class. If you have a good handle on static class variables and access modifiers this should not be a difficult task.
+
+
+private
+static
+
+without singleton
+Bank App object created
+5000 debited successfully
+Bank App object created
+8000 debited successfully
+Bank App object created
+8000 debited successfully
+
+
+with singleton
+Bank App object created
+5000 debited successfully
+8000 debited successfully
+8000 debited successfully
+
+
+** How you implement singleton design pattern ?
+
+Make a constructor private.
+Write a static method that has the return type object of this singleton class. Here, the concept of Lazy initialization is used to write this static method.
+
+Factory Design pattern
+---------------------------------
+
+
+Software Design Principle
+	SRP (SIngle Responsibility principle)
+	
+	
+Software Design Patterns
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
