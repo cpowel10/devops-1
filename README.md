@@ -3522,11 +3522,38 @@ Software Design Patterns
 
 
 
+DAO (Data access Object design pattern)
 
 
 
+package structure
+SRP 
+should adhere to interfaces
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.postgresql/postgresql -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.3.5</version>
+        </dependency>
 
 
+    </dependencies>
+
+
+
+Product Crud App
+---------------------
+M E N U 
+
+	1. Add Product
+	2. Update Product
+	3. Delete Product
+	4. Find Product By Id
+	5. Find Product By Name
+	6. Find all Products
+	9. E X I T 
 
 
 
